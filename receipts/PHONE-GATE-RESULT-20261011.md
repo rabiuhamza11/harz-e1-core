@@ -45,3 +45,23 @@ evidence. Server-side gates 4/5 already PASS. All five gates now measured.
 20K EXPANSION ITSELF REMAINS BLOCKED until the owner accepts this evidence
 AND the required storage-strategy comparison (KV sharding vs R2 vs
 D1-backed index, on equivalent data/cases/costs) is delivered and reviewed.
+
+## AMENDMENT (same day): full JSON receipt received and committed verbatim
+receipts/PHONE-RUN-2026-10-11T07-41-42-140Z.json — committed byte-identical
+to the owner's phone output. All 14 artifact hashes recorded by the phone
+were independently recomputed against this repository: 14/14 MATCH — the
+phone provably ran the exact committed artifacts.
+
+Device facts from the receipt: Android arm, 1,830 MB total RAM, node
+v24.18.0 (Termux), test duration 22 s. Cold full load 207 ms; first
+query after load 706 ms; warm avg 163 ms, max 319 ms; peak RSS 113.57 MB
+(6.2% of device RAM); install 4.57 MB; battery telemetry unavailable
+(termux-api not installed) — owner may note battery behavior manually;
+airplane-mode offline: TCP REFUSED + DNS FAIL, query answered locally,
+providers_called: [], seal 0a5c75d4 in receipts.
+
+The phone gate evidence is now complete except the optional manual
+battery note. Formal acceptance of this evidence, the storage-strategy
+choice (D1+FTS5 recommended), and the R2 decision (enable-and-measure, or
+explicit waiver) remain the owner's ruling. The 20K expansion remains
+BLOCKED until that ruling.

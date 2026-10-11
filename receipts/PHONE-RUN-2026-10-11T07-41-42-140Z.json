@@ -1,0 +1,99 @@
+{
+ "kit": "E1-KNOWLEDGE-2 phone gate v1",
+ "started": "2026-10-11T07:41:42.140Z",
+ "device": {
+  "platform": "android",
+  "arch": "arm",
+  "cores": 0,
+  "total_ram_mb": 1830,
+  "node": "v24.18.0"
+ },
+ "failures": [],
+ "steps": {
+  "s0": {
+   "artifact_sha256": {
+    "kb5k/manifest.json": "3837b30aa2157b3a16db92b2e936409ace5359c6d6dbc40ce82a352d9c0b2e25",
+    "harz-e1-core.js": "822e3c262282e00ec19abbf47756ec60789f23ac0aa9554ed25cf00c11523a07",
+    "tools/phone-run.mjs": "2418d4376e440d924c4101fdb1ae0ceb1f56b51dc7f0a6386b334d718a44aa61",
+    "kb5k/frozen-queryset.json": "07b2712c73877024a6904f7422dd04f47ec8667b108bc45f029a1a40584ac28d",
+    "kb5k/shard0.json": "5b1d393b80d4d051ab0533a4ecacd5656091198d48823314cfdf6d48e1ef1043",
+    "kb5k/shard1.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "kb5k/shard2.json": "3d5f62828abca04afe2a120be5e7cfb83410c80c4bd1aca671ece87e6f9278a9",
+    "kb5k/shard3.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "kb5k/shard4.json": "d9ddf5875985a44b780bf1500bcd998054f19d0eb5eecc160ab4a3c8d56c523e",
+    "kb5k/shard5.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "kb5k/shard6.json": "b104c8aa82b99f64a0b99393d13d7a0c4398f2316e021d140b093780c53f835f",
+    "kb5k/shard7.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "kb5k/shard8.json": "85229e095a76fce4fd99111f1df33b627ae2cc1408216076fca513884338291d",
+    "kb5k/shard9.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+   }
+  },
+  "s1": {
+   "docs": 5000,
+   "manifest_count": 5000,
+   "recomputed_sha": "0a5c75d461c206a86e07c2ac4c4dc8e6843345e5d2da88eb4b9239bae8c0a083",
+   "manifest_sha": "0a5c75d461c206a86e07c2ac4c4dc8e6843345e5d2da88eb4b9239bae8c0a083",
+   "MATCH": true
+  },
+  "s2": {
+   "count": 5000,
+   "is_5000": true,
+   "is_baseline": false,
+   "seal_prefix": "0a5c75d4"
+  },
+  "s3": {
+   "install_bytes": 4787102,
+   "install_mb": 4.57,
+   "limit_mb": 15,
+   "within": true
+  },
+  "s4": {
+   "cold_full_load_ms": 207,
+   "cold_first_query_ms": 706,
+   "limit_cold_ms": 3000,
+   "within": true
+  },
+  "s5": {
+   "cases": 20,
+   "top1": 19,
+   "top3": 19,
+   "citation_exact": 19,
+   "thresholds": {
+    "top1": 19,
+    "top3": 19,
+    "citation_exact_of_retrievals": "100%"
+   },
+   "refusal": {
+    "verdict": "UNSUPPORTED",
+    "honest": true
+   },
+   "warm_avg_ms": 163,
+   "warm_max_ms": 319
+  },
+  "s6": {
+   "tcp_1_1_1_1": "REFUSED",
+   "dns": "DNS-FAIL",
+   "offline_query_answered": true,
+   "offline_providers": [],
+   "offline_seal": "0a5c75d4"
+  },
+  "s7": {
+   "arithmetic_17x23": 391,
+   "receipts_providers_empty": true,
+   "corpus_seal_in_receipts": "0a5c75d4",
+   "expected_seal": "0a5c75d4",
+   "seal_match": true
+  },
+  "s8": {
+   "peak_rss_mb": 113.57,
+   "rss_limit_mb": 250,
+   "within_rss": true,
+   "battery_telemetry": "unavailable (termux-api not installed) — note battery behavior manually"
+  }
+ },
+ "battery_start": null,
+ "finished": "2026-10-11T07:42:03.967Z",
+ "duration_s": 22,
+ "battery_end": null,
+ "verdict": "PASS"
+}
