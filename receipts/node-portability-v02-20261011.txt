@@ -1,0 +1,19 @@
+substrate: Node v24.21.0
+passed: 14 / 14
+  PASS T1 greeting | Good day, Rabiu. This is the HARZ sovereign core. I answer w
+  PASS T2 arithmetic | 17*23=391, (15+3)*2=36
+  PASS T3 date computation | days_until 2027-01-01 = 82
+  PASS T4 tool: frozen-rate conversion | 24000 NGN = 15 USD, FROZEN RATE 1600:1 (NOT-LIVE)
+  PASS T5 pack knowledge w/ evidence | answered from pack chunk 2, pack_sha 5333dc8a
+  PASS T6 persistence | KV write->readback OK
+  PASS T7 provider independence | 2+2 answered live, receipt shows providers_called:[]
+  PASS T8 receipt integrity | stored receipt matches observed execution (128*4=512)
+  PASS T9 provenance + contradiction detection | price 5000 vs 7000 -> CONTRADICTION
+  PASS T10 pack unknown honesty | pack tier refused honestly: I have no supported knowledge fo
+  PASS T11 corpus retrieval accuracy | cited doc 0 (5ms)
+  PASS T12 citation correctness | served citation matches sealed shard entry exactly
+  PASS T13 cached/stale labeling | corpus answer labeled CACHED with fetched_at provenance
+  PASS T14 corpus unknown honesty | refused honestly: no fabrication
+measurements: {"corpus_sample_docs":1015,"sample_sha":"d82559c620da908bea41495cf199eedb28932c61a73da2a973a77f20551d2f09","kb_storage_bytes":974078,"kb_storage_kb":951.2,"corpus_query_first_ms":5,"corpus_query_cached_ms":11,"corpus_response_bytes":2167,"pack_sha_immutable":"5333dc8a53a9ca5541476af480fc4dfb32c0fc4cd887b5464d64867db451d153"}
+pack_sha Node == live v0.1 baseline: true
+sample_sha Node == sealed: true
