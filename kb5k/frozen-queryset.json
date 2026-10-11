@@ -1,0 +1,112 @@
+{
+ "declared": "2026-10-11 BEFORE execution",
+ "construction": "every 250th doc of the 5,000-doc sample by ascending id; query = first 8 significant title words (>2 chars, letters only)",
+ "thresholds": {
+  "top1": ">= 18/20 (90%)",
+  "top3": ">= 19/20 (95%)",
+  "citation_exact": "20/20 (100%)",
+  "honest_refusal": "100%"
+ },
+ "cases": [
+  {
+   "doc_id": 0,
+   "title": "2027 elections: Ebonyi stakeholders urge voters to look beyond manifestos, personalities",
+   "query": "elections Ebonyi stakeholders urge voters look beyond manifestos"
+  },
+  {
+   "doc_id": 2000,
+   "title": "Central Bank of Ecuador",
+   "query": "Central Bank Ecuador"
+  },
+  {
+   "doc_id": 4000,
+   "title": "Finance in Common",
+   "query": "Finance Common"
+  },
+  {
+   "doc_id": 6000,
+   "title": "Kokonte",
+   "query": "Kokonte"
+  },
+  {
+   "doc_id": 8000,
+   "title": "PHerc. Paris. 4",
+   "query": "PHerc Paris"
+  },
+  {
+   "doc_id": 10000,
+   "title": "Taraba River",
+   "query": "Taraba River"
+  },
+  {
+   "doc_id": 12000,
+   "title": "NORTHERN NIGERIA FLOUR MILLS POST N750M IN PRETAX PERIOD FOR 9MONTHS TO DECEMBER 2012",
+   "query": "NORTHERN NIGERIA FLOUR MILLS POST PRETAX PERIOD FOR"
+  },
+  {
+   "doc_id": 14000,
+   "title": "Nigeria doesn\u2019t need crude oil to survive, says Agbakoba",
+   "query": "Nigeria doesn need crude oil survive says Agbakoba"
+  },
+  {
+   "doc_id": 16000,
+   "title": "FG plans relocating tank farms to Ogun, Ondo to ease Apapa congestion",
+   "query": "plans relocating tank farms Ogun Ondo ease Apapa"
+  },
+  {
+   "doc_id": 18000,
+   "title": "Five minutes to steal a Renoir: Why museum thefts are becoming bolder across Europe",
+   "query": "Five minutes steal Renoir Why museum thefts are"
+  },
+  {
+   "doc_id": 20000,
+   "title": "Dempsey helps Fulham stun Liverpool",
+   "query": "Dempsey helps Fulham stun Liverpool"
+  },
+  {
+   "doc_id": 22000,
+   "title": "The TechCabal Battlefield Liveblog Is Here",
+   "query": "The TechCabal Battlefield Liveblog Here"
+  },
+  {
+   "doc_id": 24000,
+   "title": "\u201cRonaldo and Messi are the best players in the world\u201d \u2013 Sir Alex Ferguson",
+   "query": "Ronaldo and Messi are the best players the"
+  },
+  {
+   "doc_id": 26000,
+   "title": "Discos need $43bn investment in network to make ours sustainable-TCN",
+   "query": "Discos need investment network make ours sustainable TCN"
+  },
+  {
+   "doc_id": 28000,
+   "title": "Boris Johnson urges Varadkar to keep Brexit talks alive",
+   "query": "Boris Johnson urges Varadkar keep Brexit talks alive"
+  },
+  {
+   "doc_id": 30000,
+   "title": "Study flags rising tobacco marketing targeting Nigerian women, girls",
+   "query": "Study flags rising tobacco marketing targeting Nigerian women"
+  },
+  {
+   "doc_id": 32000,
+   "title": "Netanyahu faces backlash over report he was warned of Hamas attack days before October 7",
+   "query": "Netanyahu faces backlash over report was warned Hamas"
+  },
+  {
+   "doc_id": 34000,
+   "title": "Monthly Reports",
+   "query": "Monthly Reports"
+  },
+  {
+   "doc_id": 36000,
+   "title": "World Legal Materials from North America",
+   "query": "World Legal Materials from North America"
+  },
+  {
+   "doc_id": 38000,
+   "title": "Football legend Diego Maradona dies at 60",
+   "query": "Football legend Diego Maradona dies"
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+{
+ "selector": "id%42=0",
+ "source": "harz_search_v02 (HARZ Search D1 node, 42,622 docs)",
+ "count": 1015,
+ "sample_sha": "7c5a9003463a97b22d6207f0e0c1376f8932a6e6cd634066f2d88536dfe901f7",
+ "created": "2026-10-11",
+ "snippet_cap": 600,
+ "seal_recipe": "v2 substrate-neutral: sha256 over compact JSON array of [id,title,url,domain,source,fetched_at,content_hash,snippet] sorted by id \u2014 reproducible byte-identical in JS and Python. v1 sha d82559c6... used a Python-only canonical form; superseded during E1-TERMUX-1 build (documented defect correction, docs unchanged)"
+}

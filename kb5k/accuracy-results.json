@@ -1,0 +1,240 @@
+[
+ {
+  "doc_id": 0,
+  "returned": [
+   0,
+   30440,
+   12872
+  ],
+  "top1": true,
+  "top3": true,
+  "cite_exact": true,
+  "verdict": "OK"
+ },
+ {
+  "doc_id": 2000,
+  "returned": [
+   2000,
+   1760,
+   1984
+  ],
+  "top1": true,
+  "top3": true,
+  "cite_exact": true,
+  "verdict": "OK"
+ },
+ {
+  "doc_id": 4000,
+  "returned": [
+   4000,
+   2416,
+   4072
+  ],
+  "top1": true,
+  "top3": true,
+  "cite_exact": true,
+  "verdict": "OK"
+ },
+ {
+  "doc_id": 6000,
+  "returned": [
+   6000
+  ],
+  "top1": true,
+  "top3": true,
+  "cite_exact": true,
+  "verdict": "OK"
+ },
+ {
+  "doc_id": 8000,
+  "returned": [
+   8000,
+   2448,
+   2456
+  ],
+  "top1": true,
+  "top3": true,
+  "cite_exact": true,
+  "verdict": "OK"
+ },
+ {
+  "doc_id": 10000,
+  "returned": [
+   10000,
+   208,
+   432
+  ],
+  "top1": true,
+  "top3": true,
+  "cite_exact": true,
+  "verdict": "OK"
+ },
+ {
+  "doc_id": 12000,
+  "returned": [
+   12000,
+   8392,
+   29080
+  ],
+  "top1": true,
+  "top3": true,
+  "cite_exact": true,
+  "verdict": "OK"
+ },
+ {
+  "doc_id": 14000,
+  "returned": [
+   14000,
+   20512,
+   11280
+  ],
+  "top1": true,
+  "top3": true,
+  "cite_exact": true,
+  "verdict": "OK"
+ },
+ {
+  "doc_id": 16000,
+  "returned": [
+   16000,
+   12104,
+   6984
+  ],
+  "top1": true,
+  "top3": true,
+  "cite_exact": true,
+  "verdict": "OK"
+ },
+ {
+  "doc_id": 18000,
+  "returned": [
+   18000,
+   17688,
+   1552
+  ],
+  "top1": true,
+  "top3": true,
+  "cite_exact": true,
+  "verdict": "OK"
+ },
+ {
+  "doc_id": 20000,
+  "returned": [
+   20000,
+   17960,
+   24104
+  ],
+  "top1": true,
+  "top3": true,
+  "cite_exact": true,
+  "verdict": "OK"
+ },
+ {
+  "doc_id": 22000,
+  "returned": [
+   22000,
+   15184,
+   15752
+  ],
+  "top1": true,
+  "top3": true,
+  "cite_exact": true,
+  "verdict": "OK"
+ },
+ {
+  "doc_id": 24000,
+  "returned": [
+   24000,
+   27728,
+   19840
+  ],
+  "top1": true,
+  "top3": true,
+  "cite_exact": true,
+  "verdict": "OK"
+ },
+ {
+  "doc_id": 26000,
+  "returned": [
+   26000,
+   25440,
+   18256
+  ],
+  "top1": true,
+  "top3": true,
+  "cite_exact": true,
+  "verdict": "OK"
+ },
+ {
+  "doc_id": 28000,
+  "returned": [
+   28000,
+   25408,
+   27384
+  ],
+  "top1": true,
+  "top3": true,
+  "cite_exact": true,
+  "verdict": "OK"
+ },
+ {
+  "doc_id": 30000,
+  "returned": [
+   30000,
+   17424,
+   22248
+  ],
+  "top1": true,
+  "top3": true,
+  "cite_exact": true,
+  "verdict": "OK"
+ },
+ {
+  "doc_id": 32000,
+  "returned": [
+   32000,
+   11384,
+   18664
+  ],
+  "top1": true,
+  "top3": true,
+  "cite_exact": true,
+  "verdict": "OK"
+ },
+ {
+  "doc_id": 34000,
+  "returned": [
+   33216,
+   33392,
+   33536
+  ],
+  "top1": false,
+  "top3": false,
+  "cite_exact": false,
+  "verdict": "OK"
+ },
+ {
+  "doc_id": 36000,
+  "returned": [
+   36000,
+   36088,
+   15304
+  ],
+  "top1": true,
+  "top3": true,
+  "cite_exact": true,
+  "verdict": "OK"
+ },
+ {
+  "doc_id": 38000,
+  "returned": [
+   38000,
+   27968,
+   30632
+  ],
+  "top1": true,
+  "top3": true,
+  "cite_exact": true,
+  "verdict": "OK"
+ }
+]

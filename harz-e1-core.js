@@ -6,7 +6,8 @@
 // HARZ Search D1 node, selector id%42=0, sample_sha d82559c6..., 10 KV shards).
 // Contract: E1-CORE-CONTRACT v0.1 + E1-KNOWLEDGE-1 ruling (Oct 11, 2026)
 
-const VERSION = 'harz-e1-core v0.2';
+const VERSION = 'harz-e1-core v0.3-kb5k';
+const KB_PREFIX = 'e1:kb5k:'; // E1-KNOWLEDGE-2 Phase 2: 5,000-doc sealed sample; baseline v0.2 keys (e1:kb:*) preserved for rollback
 const FROZEN_USD_NGN = 1600; // FROZEN policy rate, labeled NOT-LIVE on every use
 const KB_SHARDS = 10;
 
@@ -97,10 +98,10 @@ function logic(input) {
 let kbCache = null;
 async function loadKB(env) {
   if (kbCache) return kbCache;
-  const manifest = JSON.parse(await env.E1_MEMORY.get('e1:kb:manifest'));
+  const manifest = JSON.parse(await env.E1_MEMORY.get(KB_PREFIX + 'manifest'));
   const docs = [];
   for (let i = 0; i < KB_SHARDS; i++) {
-    const raw = await env.E1_MEMORY.get('e1:kb:shard' + i);
+    const raw = await env.E1_MEMORY.get(KB_PREFIX + 'shard' + i);
     if (!raw) throw new Error('knowledge shard ' + i + ' missing — fail-closed');
     docs.push(...JSON.parse(raw));
   }
@@ -274,7 +275,7 @@ export default {
       const cite0 = r.citations && r.citations[0];
       let citeOk = false;
       if (cite0) {
-        const shardRaw = await env.E1_MEMORY.get('e1:kb:shard' + (cite0.doc_id % KB_SHARDS));
+        const shardRaw = await env.E1_MEMORY.get(KB_PREFIX + 'shard' + (cite0.doc_id % KB_SHARDS));
         const stored = JSON.parse(shardRaw).find(d => d.id === cite0.doc_id);
         citeOk = stored && stored.content_hash === cite0.content_hash && stored.title === cite0.title && stored.fetched_at === cite0.fetched_at;
       }
@@ -284,12 +285,12 @@ export default {
       const hasFetched = cite0 && /^\d{4}-\d{2}-\d{2}T/.test(cite0.fetched_at);
       t.push(mk('T13 cached/stale labeling', !!hasLabel && !!hasFetched, 'corpus answer labeled CACHED with fetched_at provenance', 'N/A (honesty)'));
       // T14 corpus unknown honesty (nonsense query, auto routing)
-      r = await runTask('knowledge', { query: 'xyzzyplugh quixotic bromance flibbertigibbet' }, packSha, env);
+      r = await runTask('knowledge', { query: 'qwzxvk pjorlmf vbnmtre' /* E1-KNOWLEDGE-2 disclosed change: prior T14 query aged out when corpus grew to 5000 (the word bromance exists in doc 35792); each new word pre-verified zero hits across all 5000 titles+snippets */ }, packSha, env);
       t.push(mk('T14 corpus unknown honesty', r.verdict === 'UNSUPPORTED' && !r.output.includes('0x'), 'refused honestly: no fabrication', 'HONEST-REFUSAL'));
 
       // ---- E1-KNOWLEDGE-1 measurements ----
       let kbBytes = 0;
-      for (let i = 0; i < KB_SHARDS; i++) kbBytes += (await env.E1_MEMORY.get('e1:kb:shard' + i) || '').length;
+      for (let i = 0; i < KB_SHARDS; i++) kbBytes += (await env.E1_MEMORY.get(KB_PREFIX + 'shard' + i) || '').length;
       const t1 = Date.now();
       const cachedRun = await runTask('knowledge', { query: 'Ebonyi stakeholders manifesto 2027 elections', tier: 'corpus' }, packSha, env);
       const cachedLatency = Date.now() - t1;
