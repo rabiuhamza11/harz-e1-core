@@ -1,0 +1,8 @@
+{
+ "selector": "id%42=0",
+ "source": "harz_search_v02 (HARZ Search D1 node, 42,622 docs)",
+ "count": 1015,
+ "sample_sha": "d82559c620da908bea41495cf199eedb28932c61a73da2a973a77f20551d2f09",
+ "created": "2026-10-11",
+ "snippet_cap": 600
+}
