@@ -1,0 +1,86 @@
+{
+ "declared": "2026-10-11 BEFORE execution",
+ "construction": "every 1000th doc of the 20K comparison sample by ascending id; same query rule as the 5K gate",
+ "cases": [
+  {
+   "doc_id": 0,
+   "query": "elections Ebonyi stakeholders urge voters look beyond manifestos"
+  },
+  {
+   "doc_id": 2000,
+   "query": "Central Bank Ecuador"
+  },
+  {
+   "doc_id": 4000,
+   "query": "Finance Common"
+  },
+  {
+   "doc_id": 6000,
+   "query": "Kokonte"
+  },
+  {
+   "doc_id": 8000,
+   "query": "PHerc Paris"
+  },
+  {
+   "doc_id": 10000,
+   "query": "Taraba River"
+  },
+  {
+   "doc_id": 12000,
+   "query": "NORTHERN NIGERIA FLOUR MILLS POST PRETAX PERIOD FOR"
+  },
+  {
+   "doc_id": 14000,
+   "query": "Nigeria doesn need crude oil survive says Agbakoba"
+  },
+  {
+   "doc_id": 16000,
+   "query": "plans relocating tank farms Ogun Ondo ease Apapa"
+  },
+  {
+   "doc_id": 18000,
+   "query": "Five minutes steal Renoir Why museum thefts are"
+  },
+  {
+   "doc_id": 20000,
+   "query": "Dempsey helps Fulham stun Liverpool"
+  },
+  {
+   "doc_id": 22000,
+   "query": "The TechCabal Battlefield Liveblog Here"
+  },
+  {
+   "doc_id": 24000,
+   "query": "Ronaldo and Messi are the best players the"
+  },
+  {
+   "doc_id": 26000,
+   "query": "Discos need investment network make ours sustainable TCN"
+  },
+  {
+   "doc_id": 28000,
+   "query": "Boris Johnson urges Varadkar keep Brexit talks alive"
+  },
+  {
+   "doc_id": 30000,
+   "query": "Study flags rising tobacco marketing targeting Nigerian women"
+  },
+  {
+   "doc_id": 32000,
+   "query": "Netanyahu faces backlash over report was warned Hamas"
+  },
+  {
+   "doc_id": 34000,
+   "query": "Monthly Reports"
+  },
+  {
+   "doc_id": 36000,
+   "query": "World Legal Materials from North America"
+  },
+  {
+   "doc_id": 38000,
+   "query": "Football legend Diego Maradona dies"
+  }
+ ]
+}

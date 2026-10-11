@@ -1,0 +1,11 @@
+{
+ "selector": "CAST(id AS INTEGER) % 2 = 0 ORDER BY id ASC LIMIT 20000",
+ "source": "harz_search_v02 (HARZ Search D1 node, 42,622 docs)",
+ "count": 20000,
+ "sample_sha": "29649c8a198649bed22405b60969d77d3088fb4ba8a692874e9388f50f0aa984",
+ "created": "2026-10-11",
+ "snippet_cap": 600,
+ "purpose": "MEASUREMENT-ONLY for the E1-KNOWLEDGE-2 20K storage-strategy comparison (KV vs R2 vs D1). NOT deployed to the live core; 20K expansion remains owner-blocked.",
+ "seal_recipe": "v2 substrate-neutral",
+ "sharding": "doc_id % 10"
+}
