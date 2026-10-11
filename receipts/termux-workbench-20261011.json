@@ -1,0 +1,70 @@
+{
+ "suite": "E1-TERMUX-1 gates T15-T24",
+ "substrate": "Termux (or Node — same kit)",
+ "node": "v24.21.0",
+ "passed": 10,
+ "total": 10,
+ "gates": [
+  {
+   "gate": "T15",
+   "name": "core loads on this substrate",
+   "pass": true,
+   "detail": "harz-e1-core v0.2"
+  },
+  {
+   "gate": "T16",
+   "name": "pack baseline hash exact",
+   "pass": true,
+   "detail": "5333dc8a53a9ca55"
+  },
+  {
+   "gate": "T17",
+   "name": "manifest + shard seal verified locally",
+   "pass": true,
+   "detail": "1015 docs, sha 7c5a9003463a"
+  },
+  {
+   "gate": "T18",
+   "name": "arithmetic + date reasoning",
+   "pass": true,
+   "detail": "17*23=391, (15+3)*2=36, days=82"
+  },
+  {
+   "gate": "T19",
+   "name": "corpus retrieval + citation",
+   "pass": true,
+   "detail": "doc 0 hash 7681046e3021"
+  },
+  {
+   "gate": "T20",
+   "name": "unknown refusal",
+   "pass": true,
+   "detail": "refused, no fabrication"
+  },
+  {
+   "gate": "T21",
+   "name": "state survives process restart",
+   "pass": true,
+   "detail": "child process read back receipt, 41*3=123"
+  },
+  {
+   "gate": "T22",
+   "name": "zero external inference",
+   "pass": true,
+   "detail": "no fetch call in core modules, receipts clean"
+  },
+  {
+   "gate": "T23",
+   "name": "receipt integrity",
+   "pass": true,
+   "detail": "stored receipt matches observed execution"
+  },
+  {
+   "gate": "T24",
+   "name": "cross-substrate consistency",
+   "pass": true,
+   "detail": "identical results: pack sha, sample sha, citations"
+  }
+ ],
+ "ts": "2026-10-11T06:15:18.476Z"
+}
