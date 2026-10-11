@@ -1,0 +1,228 @@
+{
+ "strategy": "KV 10-shard",
+ "cold_first_query_ms": 141,
+ "warm_avg_ms": 0,
+ "top1": "19/20",
+ "top3": "19/20",
+ "cases": [
+  {
+   "expect": 0,
+   "returned": [
+    0,
+    19902,
+    12756
+   ],
+   "top1": true,
+   "top3": true,
+   "ms": 141
+  },
+  {
+   "expect": 2000,
+   "returned": [
+    2000,
+    1760,
+    1984
+   ],
+   "top1": true,
+   "top3": true,
+   "ms": 0
+  },
+  {
+   "expect": 4000,
+   "returned": [
+    4000,
+    8326,
+    20324
+   ],
+   "top1": true,
+   "top3": true,
+   "ms": 0
+  },
+  {
+   "expect": 6000,
+   "returned": [
+    6000
+   ],
+   "top1": true,
+   "top3": true,
+   "ms": 0
+  },
+  {
+   "expect": 8000,
+   "returned": [
+    8000,
+    2446,
+    2448
+   ],
+   "top1": true,
+   "top3": true,
+   "ms": 0
+  },
+  {
+   "expect": 10000,
+   "returned": [
+    10000,
+    180,
+    188
+   ],
+   "top1": true,
+   "top3": true,
+   "ms": 0
+  },
+  {
+   "expect": 12000,
+   "returned": [
+    12000,
+    15372,
+    14964
+   ],
+   "top1": true,
+   "top3": true,
+   "ms": 0
+  },
+  {
+   "expect": 14000,
+   "returned": [
+    14000,
+    15370,
+    18954
+   ],
+   "top1": true,
+   "top3": true,
+   "ms": 0
+  },
+  {
+   "expect": 16000,
+   "returned": [
+    16000,
+    17050,
+    11460
+   ],
+   "top1": true,
+   "top3": true,
+   "ms": 0
+  },
+  {
+   "expect": 18000,
+   "returned": [
+    18000,
+    17688,
+    17982
+   ],
+   "top1": true,
+   "top3": true,
+   "ms": 0
+  },
+  {
+   "expect": 20000,
+   "returned": [
+    20000,
+    25764,
+    6324
+   ],
+   "top1": true,
+   "top3": true,
+   "ms": 0
+  },
+  {
+   "expect": 22000,
+   "returned": [
+    22000,
+    22122,
+    22322
+   ],
+   "top1": true,
+   "top3": true,
+   "ms": 0
+  },
+  {
+   "expect": 24000,
+   "returned": [
+    24000,
+    27728,
+    27782
+   ],
+   "top1": true,
+   "top3": true,
+   "ms": 0
+  },
+  {
+   "expect": 26000,
+   "returned": [
+    26000,
+    25440,
+    5542
+   ],
+   "top1": true,
+   "top3": true,
+   "ms": 0
+  },
+  {
+   "expect": 28000,
+   "returned": [
+    28000,
+    12834,
+    25408
+   ],
+   "top1": true,
+   "top3": true,
+   "ms": 0
+  },
+  {
+   "expect": 30000,
+   "returned": [
+    30000,
+    19964,
+    33934
+   ],
+   "top1": true,
+   "top3": true,
+   "ms": 0
+  },
+  {
+   "expect": 32000,
+   "returned": [
+    32000,
+    11384,
+    13356
+   ],
+   "top1": true,
+   "top3": true,
+   "ms": 0
+  },
+  {
+   "expect": 34000,
+   "returned": [
+    33216,
+    33228,
+    33254
+   ],
+   "top1": false,
+   "top3": false,
+   "ms": 0
+  },
+  {
+   "expect": 36000,
+   "returned": [
+    36000,
+    36044,
+    36088
+   ],
+   "top1": true,
+   "top3": true,
+   "ms": 0
+  },
+  {
+   "expect": 38000,
+   "returned": [
+    38000,
+    29780,
+    37988
+   ],
+   "top1": true,
+   "top3": true,
+   "ms": 0
+  }
+ ],
+ "note": "same-day re-run Oct 11 per day-of-variance clause; full citations in bench-*-run1.json (identical doc set)"
+}
