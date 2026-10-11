@@ -1,0 +1,4 @@
+substrate: Node v24.21.0
+passed: 10 / 10
+verdicts: {"control":"PASS","inference_scope":"DETERMINISTIC-ONLY (no general language inference claimed)","capability":"10/10 sovereign passes"}
+pack_sha (Node): 5333dc8a53a9ca55 ... matches Worker: true
