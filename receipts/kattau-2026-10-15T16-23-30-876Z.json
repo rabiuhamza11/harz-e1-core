@@ -1,0 +1,11 @@
+{
+  "agent": "kattau v0.1",
+  "query": "sannu",
+  "verdict": "PASS",
+  "label": "ONLINE (network present — answered locally anyway; no calls made)",
+  "answer": "Sannu! Ni Kattau ne — wakilin ka marar intanet. Na san amsoshin da ke cikin littafin ilimina (takardu 5,000), ina iya lissafi da lokaci. Tambayi min abin da kake son sani.",
+  "details": {},
+  "total_ms": 9,
+  "providers_called": [],
+  "ts": "2026-10-15T16:23:30.876Z"
+}

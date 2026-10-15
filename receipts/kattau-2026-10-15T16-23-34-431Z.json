@@ -1,0 +1,11 @@
+{
+  "agent": "kattau v0.1",
+  "query": "calculate 12 + * 3",
+  "verdict": "REFUSED HONESTLY",
+  "label": "ONLINE (network present — answered locally anyway; no calls made)",
+  "answer": "Arithmetic refused honestly: bad number. My skill does exact integer math; it will not guess.",
+  "details": {},
+  "total_ms": 9,
+  "providers_called": [],
+  "ts": "2026-10-15T16:23:34.431Z"
+}

@@ -1,0 +1,21 @@
+{
+  "agent": "kattau v0.1",
+  "query": "Taraba River",
+  "verdict": "PASS",
+  "label": "ONLINE (network present — answered locally anyway; no calls made)",
+  "answer": "From my knowledge kit (doc 10000):\n* Taraba River\nThe Taraba River is a river in Taraba State, Nigeria, a tributary of the Benue River. It joins the Benue on a floodplain 10 km wide and 50 km across. The major towns along the River Taraba are Sert-Baruwa, Sarki Ruwa, Karamti, Jamtari, Gangumi, Gayam and Bali LGA. The major economic activities on th\n(Honesty: retrieved by local search, NOT verified for relevance beyond the kit. Check the source before relying on it.)",
+  "details": {
+    "kit": {
+      "sha256": "176b4e94ae4a9b3deb31e32196d2cd0d6fc7bcd999b00ee8ceffc821353046f1",
+      "docs": 5000,
+      "results": 1,
+      "ms": 0,
+      "top_ids": [
+        10000
+      ]
+    }
+  },
+  "total_ms": 19,
+  "providers_called": [],
+  "ts": "2026-10-15T16:23:51.536Z"
+}

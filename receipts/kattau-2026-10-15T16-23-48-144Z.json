@@ -1,0 +1,16 @@
+{
+  "agent": "kattau v0.1",
+  "query": "what is 17x23",
+  "verdict": "PASS",
+  "label": "ONLINE (network present — answered locally anyway; no calls made)",
+  "answer": "17x23 = 391 (exact BigInt math).",
+  "details": {
+    "arithmetic": {
+      "expr": "17x23",
+      "result": "391"
+    }
+  },
+  "total_ms": 9,
+  "providers_called": [],
+  "ts": "2026-10-15T16:23:48.144Z"
+}

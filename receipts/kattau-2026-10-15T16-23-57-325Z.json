@@ -1,0 +1,11 @@
+{
+  "agent": "kattau v0.1",
+  "query": "what time is it",
+  "verdict": "PASS",
+  "label": "ONLINE (network present — answered locally anyway; no calls made)",
+  "answer": "It is 16:23:57 on Thursday, 15 October 2026 by your device clock. (Honesty label: device clock, unverified — I have no way to check it offline.)",
+  "details": {},
+  "total_ms": 24,
+  "providers_called": [],
+  "ts": "2026-10-15T16:23:57.325Z"
+}

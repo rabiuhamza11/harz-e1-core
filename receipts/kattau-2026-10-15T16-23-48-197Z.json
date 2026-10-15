@@ -1,0 +1,16 @@
+{
+  "agent": "kattau v0.1",
+  "query": "calculate 987654321 * 987654321",
+  "verdict": "PASS",
+  "label": "ONLINE (network present — answered locally anyway; no calls made)",
+  "answer": "987654321 * 987654321 = 975461057789971041 (exact BigInt math).",
+  "details": {
+    "arithmetic": {
+      "expr": "987654321 * 987654321",
+      "result": "975461057789971041"
+    }
+  },
+  "total_ms": 9,
+  "providers_called": [],
+  "ts": "2026-10-15T16:23:48.197Z"
+}

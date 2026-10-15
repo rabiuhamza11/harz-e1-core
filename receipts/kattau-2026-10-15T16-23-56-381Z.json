@@ -1,0 +1,16 @@
+{
+  "agent": "kattau v0.1",
+  "query": "calculate 12 + 7 * 3",
+  "verdict": "PASS",
+  "label": "ONLINE (network present — answered locally anyway; no calls made)",
+  "answer": "12 + 7 * 3 = 33 (exact BigInt math).",
+  "details": {
+    "arithmetic": {
+      "expr": "12 + 7 * 3",
+      "result": "33"
+    }
+  },
+  "total_ms": 9,
+  "providers_called": [],
+  "ts": "2026-10-15T16:23:56.381Z"
+}

@@ -1,0 +1,18 @@
+{
+  "agent": "kattau v0.1",
+  "query": "quantum chromodynamics lattice review",
+  "verdict": "REFUSED HONESTLY",
+  "label": "ONLINE (network present — answered locally anyway; no calls made)",
+  "answer": "Not in my knowledge kit (5,000 sealed documents). I have no way to look beyond it offline, so I refuse rather than guess. If you have network, an online HARZ service may know more — I am honestly telling you I do not.",
+  "details": {
+    "kit": {
+      "sha256": "176b4e94ae4a9b3deb31e32196d2cd0d6fc7bcd999b00ee8ceffc821353046f1",
+      "docs": 5000,
+      "results": 0,
+      "ms": 1
+    }
+  },
+  "total_ms": 17,
+  "providers_called": [],
+  "ts": "2026-10-15T16:23:51.349Z"
+}
