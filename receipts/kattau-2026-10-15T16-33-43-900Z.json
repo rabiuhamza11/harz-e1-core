@@ -1,0 +1,11 @@
+{
+  "agent": "kattau v0.1",
+  "query": "hello",
+  "verdict": "PASS",
+  "label": "ONLINE (network present — answered locally anyway; no calls made)",
+  "answer": "Sannu — hello! I am Kattau, your small offline agent. I answer from my own 5,000-document knowledge kit, do arithmetic and tell the time — all locally, no internet needed. Ask me anything.",
+  "details": {},
+  "total_ms": 9,
+  "providers_called": [],
+  "ts": "2026-10-15T16:33:43.900Z"
+}

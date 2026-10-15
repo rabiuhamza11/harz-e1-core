@@ -1,0 +1,13 @@
+{
+  "agent": "kattau v0.2-candidate",
+  "query": "which is bigger, 17 or 23",
+  "verdict": "PASS",
+  "label": "ONLINE (network present — answered locally anyway; no calls made)",
+  "answer": "23 is greater (local comparison).",
+  "details": {
+    "skill": "comparison"
+  },
+  "total_ms": 10,
+  "providers_called": [],
+  "ts": "2026-10-15T16:59:20.593Z"
+}

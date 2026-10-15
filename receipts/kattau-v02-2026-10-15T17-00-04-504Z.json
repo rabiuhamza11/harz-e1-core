@@ -1,0 +1,13 @@
+{
+  "agent": "kattau v0.2-candidate",
+  "query": "what is photosynthesis",
+  "verdict": "PASS",
+  "label": "ONLINE (network present — answered locally anyway; no calls made)",
+  "answer": "Photosynthesis is the process by which plants convert sunlight, water and carbon dioxide into oxygen and energy. (LOCAL FACT — stored knowledge, not retrieved evidence.)",
+  "details": {
+    "skill": "local-fact"
+  },
+  "total_ms": 9,
+  "providers_called": [],
+  "ts": "2026-10-15T17:00:04.504Z"
+}

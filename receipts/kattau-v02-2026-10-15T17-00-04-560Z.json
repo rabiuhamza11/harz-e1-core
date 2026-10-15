@@ -1,0 +1,11 @@
+{
+  "agent": "kattau v0.2-candidate",
+  "query": "goodbye",
+  "verdict": "PASS",
+  "label": "ONLINE (network present — answered locally anyway; no calls made)",
+  "answer": "Goodbye! Kattau stays here, working offline. Sannu da zuwa.",
+  "details": {},
+  "total_ms": 9,
+  "providers_called": [],
+  "ts": "2026-10-15T17:00:04.560Z"
+}

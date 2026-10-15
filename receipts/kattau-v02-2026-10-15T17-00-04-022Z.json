@@ -1,0 +1,11 @@
+{
+  "agent": "kattau v0.2-candidate",
+  "query": "who are you",
+  "verdict": "KNOWN LIMITATION",
+  "label": "ONLINE (network present — answered locally anyway; no calls made)",
+  "answer": "I am Kattau v0.2, the small offline HARZ agent. Honest scope: the sealed 5,000-doc kit + the HARZ ecosystem fact pack, exact arithmetic (digits, word-form, comparisons, percent-of), and the clock. No language model runs here — when I do not know, I say so. This is a KNOWN LIMITATION, stated plainly.",
+  "details": {},
+  "total_ms": 11,
+  "providers_called": [],
+  "ts": "2026-10-15T17:00:04.022Z"
+}

@@ -1,0 +1,11 @@
+{
+  "agent": "kattau v0.2-candidate",
+  "query": "hello",
+  "verdict": "PASS",
+  "label": "ONLINE (network present — answered locally anyway; no calls made)",
+  "answer": "Sannu — hello! I am Kattau v0.2: I now know the HARZ ecosystem (82+ platforms, my own fact pack), word-form arithmetic (\"seventeen times twenty-three\"), comparisons and percent-of — all offline. Ask me anything.",
+  "details": {},
+  "total_ms": 10,
+  "providers_called": [],
+  "ts": "2026-10-15T17:00:03.676Z"
+}

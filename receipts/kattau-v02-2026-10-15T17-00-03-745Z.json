@@ -1,0 +1,11 @@
+{
+  "agent": "kattau v0.2-candidate",
+  "query": "sannu",
+  "verdict": "PASS",
+  "label": "ONLINE (network present — answered locally anyway; no calls made)",
+  "answer": "Sannu! Ni Kattau ne (v0.2) — wakilin ka marar intanet. Yanzu na san HARZ ecosystem, lissafin magana, da kwatance. Tambayi min!",
+  "details": {},
+  "total_ms": 10,
+  "providers_called": [],
+  "ts": "2026-10-15T17:00:03.745Z"
+}

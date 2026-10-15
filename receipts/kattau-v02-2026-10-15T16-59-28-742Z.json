@@ -1,0 +1,24 @@
+{
+  "agent": "kattau v0.2-candidate",
+  "query": "what is HARZ",
+  "verdict": "PASS",
+  "label": "ONLINE (network present — answered locally anyway; no calls made)",
+  "answer": "From my knowledge (HARZ ecosystem fact pack):\n* HARZ: HARZ Ecosystem (Overview)\nHARZ is the digital ecosystem of architect, engineer and educationist Rabiu Hamza (owner). Includes HARZ AI OS, HarzDM marketplace, HARZ Search, HARZ Browser, HARZ Wallet and GDEG token, Danfodio Memorial Academy school platform, HARZ farm platforms, Kattau offline agent, and the HARZ million-doc knowledge corpus. Sove\n(Honesty: retrieved by local search, NOT verified for relevance beyond the kit.)",
+  "details": {
+    "kit": {
+      "sha256": "17553fe3eb2f82a7a9c72bfd7c61c38e259d2ebca80b417fafef1c26d7fa5e80",
+      "docs": 5084,
+      "results": 3,
+      "ms": 1,
+      "top_ids": [
+        200083,
+        200063,
+        200067
+      ],
+      "normalized_query": "HARZ"
+    }
+  },
+  "total_ms": 30,
+  "providers_called": [],
+  "ts": "2026-10-15T16:59:28.742Z"
+}

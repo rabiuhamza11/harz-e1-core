@@ -1,0 +1,13 @@
+{
+  "agent": "kattau v0.2-candidate",
+  "query": "what is seventeen times twenty three",
+  "verdict": "PASS",
+  "label": "ONLINE (network present — answered locally anyway; no calls made)",
+  "answer": "seventeen times twenty three = 391 (word-form arithmetic, exact BigInt math).",
+  "details": {
+    "skill": "word-form-arithmetic"
+  },
+  "total_ms": 10,
+  "providers_called": [],
+  "ts": "2026-10-15T16:59:20.467Z"
+}

@@ -1,0 +1,13 @@
+{
+  "agent": "kattau v0.2-candidate",
+  "query": "what is 20 percent of 240",
+  "verdict": "PASS",
+  "label": "ONLINE (network present — answered locally anyway; no calls made)",
+  "answer": "20 percent of 240 = 48 (percent-of, exact integer math (remainder dropped where any, stated honestly)).",
+  "details": {
+    "skill": "word-form-arithmetic"
+  },
+  "total_ms": 9,
+  "providers_called": [],
+  "ts": "2026-10-15T16:59:20.529Z"
+}

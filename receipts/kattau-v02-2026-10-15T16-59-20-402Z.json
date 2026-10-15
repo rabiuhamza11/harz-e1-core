@@ -1,0 +1,18 @@
+{
+  "agent": "kattau v0.2-candidate",
+  "query": "what is HARZ",
+  "verdict": "REFUSED HONESTLY",
+  "label": "ONLINE (network present — answered locally anyway; no calls made)",
+  "answer": "Not in my knowledge (5,000 sealed documents + the HARZ ecosystem pack). I have no way to look beyond it offline, so I refuse rather than guess.",
+  "details": {
+    "kit": {
+      "sha256": "17553fe3eb2f82a7a9c72bfd7c61c38e259d2ebca80b417fafef1c26d7fa5e80",
+      "docs": 5084,
+      "results": 0,
+      "ms": 0
+    }
+  },
+  "total_ms": 264,
+  "providers_called": [],
+  "ts": "2026-10-15T16:59:20.402Z"
+}
